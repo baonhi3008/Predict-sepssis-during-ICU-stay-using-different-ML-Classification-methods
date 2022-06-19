@@ -37,7 +37,7 @@ So far `Logistic Regression` is the best approach among those models and methods
 
 From the table below we can say that: 
 
-<img src="./Model_Comparison.png" alt="Table compares all models" style="height: 280px; width:850px;"/>
+<img src="Machine Learning 2/Model_Comparison.png" alt="Table compares all models" style="height: 280px; width:850px;"/>
 
 * First I will discuss about the overfitting problem, Decision Tree without Hyperparameter Tuning and Random Forest seems to be overfitted with 100% of accuracy in the training dataset, but perform poorly in the testing dataset around 50%. The other models still have a considerable GAP between the accuracy or F1 score in the testing and training dataset  > 5%, which is Decision Tree with hyperparameter tuning and base model of logistic regression (without regulization). However, in models with resampling techniques applied in the pipeline with Logistic Regression -> the model seems not to be overfitted. With the application of regularisation in Logistic Regression, the model is prevented from being overfitting as we put penalty in the parameter. This is such an important things to note, as in the base model which is without regularisation we saw a huge generalisation GAP, and the significant higher accuracy on the training dataset. 
 
